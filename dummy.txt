@@ -1,2 +1,143 @@
 this is my first git
 new edit
+
+------------
+17/102024
+
+* clock matching (baurd rate)
+* in the communication the SDA getting low  1st
+* start-slave_address-r/w(ack)-slave_register_location-ack-data()-ack-stop
+* higher pullup resisitance value increase pullup time
+* 2k pullup 400khz(higher speed)
+* 10k pullup 100khz(lower speed)
+* What is clock stretching in I2C?
+
+Describe how, in I2C, the slave device can hold the SCL line low to signal the master to pause until the slave is ready to proceed.
+-------------------------------------------------------------------------------------------
+20/09/2024
+ In C++, when writing a program, you need to define a maIn Arduino, you don’t need to define main(). Instead, Arduino uses two special functions:
+
+setup(): Runs once when the program starts.
+loop(): Runs continuously after setup() finishes.in() function where everything start
+
+21/09/2024
+* mac and ipv6 basically in hexdecimal format 
+* floor and ceil
+* in python a=b and b=a is not working but a=b,b=a is working
+---------------------------------------------------------------------------------------
+* active EMI filter (AEF) 
+--------------------------------------------------------------------
+04/10/2024
+* compere #define and constant int is better. constant int occupy memory space but #define not.
+*   print ("Iteration no. {}".format(count))
+-------------------------------------------------------------------------
+07/10/2024
+* #include -directive
+* Header file (.h):
+* Source file (.cpp):
+-------------------------------------------------------------------------
+10/10/2024
+* x = 'awesome'------>gobel_variable 
+ 
+def myfunc():
+ x = 'fantastic'--------->local_variable
+myfunc()
+print('Python is ' + x)
+
+
+* clock stretching
+* repected start
+* arbitration  (one more master)
+------------------------------------------------
+23/10/2024
+* images stored in flash memory(esp32)
+* eeprom for store a value (low space ex. KB)
+-------------------------------------------------------
+25/10/2024
+* SPI colock prolarity(active high and active low) and clock phase
+* CPOL(clock prolarity)
+* CPHA(clock phase)
+* leading clock edge & trailing edge
+------------------------------------------------------
+26/10/2024
+* Synchronous Serial Interface || SSI
+----------------------------------------------------
+27/10/2024
+* SPI software enable
+* hardware chip select
+* In SPI. API is the (application programming interface)
+* Configure SPI Parameters: Adjust settings such as clock polarity (CPOL), clock phase (CPHA), and bit order (MSB/LSB).
+(c++)
+*   #include <stdlib.h> memory allocation,rand and other function. 
+----------------------------------------
+08/11/2024
+(*) git hub
+	* repository (code storage area)
+	* version control
+	* code syncronichation
+	* local repository
+	* cloud repository
+* git clone
+==============
+* [working directory]----git add--->[staging area]---git commit--->[repository]
+* https://www.youtube.com/watch?v=WzO6VynQ7UM--->[25:24]
+* https://www.w3schools.com/cpp/cpp_strings_length.asp
+---------------------------------------------------------------------------
+09/11/2024
+
+* https://www.w3schools.com/cpp/cpp_math.asp
+---------------------------------------------------------------------------
+13/11/2024
+
+* GATT -generic attributes
+* UUID - unique 128-bit(16bytes)number
+* 16-bit UUID (e.g., 0x180F for the Battery Service)
+* 128-bit UUID (e.g., 0000180F-0000-1000-8000-00805F9B34FB)
+---------------------------------------------------------------------------
+14/11/2024
+
+
+<code_learning>
+* [community]
+* [form]
+* [documentation]
+* [git & version control]
+* [premature optimization]x
+* [dont ignore the comments]
+* [code testing (unit test)]
+	* base case
+	* edge case
+	* negative case
+	* empty case 
+	* null check
+* [tutorial hell (dont do)]
+* [Must to read error messages ] 
+* [fear of refactoring]
+* [not focussing on problem solving skills]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
